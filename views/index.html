@@ -1,0 +1,15 @@
+<extends src='layout.html'>
+  <block name='content'>
+    <section class="header">
+      <div class="featured-info">
+
+        <div class="episode-info">
+          <h2>Episode {{ contentful.podcasts[0].fields.number }}</h2>
+          <h3>{{ contentful.podcasts[0].fields.guestName }}</h3>
+          <h4>{{ contentful.podcasts[0].fields.guestDescription }}</h4>
+        </div>
+
+      </div>
+    </section>
+  </block>
+</extends>
